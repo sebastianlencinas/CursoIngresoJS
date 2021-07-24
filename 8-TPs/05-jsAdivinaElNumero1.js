@@ -9,10 +9,19 @@ de no ser igual se debe informar si “falta…”  para llegar al número secre
 */
 var numeroSecreto; 
 var contadorIntentos;
+var numeroIngresado; 
+
+numeroSecreto = Math.floor(Math.random()*101) + 1; 
+contadorIntentos= 0
+numeroIngresado= parseInt(document.getElementById("txtIdNumero").value);
 
 function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 100
+  if (myNumeroAleatorio == numeroIngresado)
+  {
+    alert("el numero es correcto")
+  } 
 	 
 		//alert(numeroSecreto );
 	

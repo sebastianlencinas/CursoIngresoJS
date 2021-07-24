@@ -5,6 +5,7 @@ El jugador seleccionará una imagen correspondiente
 a su opción  y le informaremos si ganó, empató o perdió.
 */
 var eleccionMaquina;
+elec
 
 function comenzar()
 {
